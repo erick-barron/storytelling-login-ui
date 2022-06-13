@@ -1,0 +1,15 @@
+:root {
+  --main-bg-color: #4F5A69;
+  --main-text-color: #fff;
+  --main-btn-color: #FDCE14;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
