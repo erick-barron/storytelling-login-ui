@@ -13,3 +13,30 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+.main-wrapper {
+  background-color: var(--main-bg-color);
+  display: flex;
+  width: 1000px;
+}
+
+#left-article {
+  background-color: #1D2733;
+  background-image: url("images/left-bg.png");
+}
+
+#right-article {
+  background-color: #263142;
+}
+
+.left-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.right-container {
+  margin: 50px;
+}
+
+article {
+  width: 50%;
+}
